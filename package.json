@@ -1,0 +1,14 @@
+{
+  "name": "util-style",
+  "version": "1.0.0",
+  "description": "util style for react native",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react-native": "^0.74.5"
+  }
+}
