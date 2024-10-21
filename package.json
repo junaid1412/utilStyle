@@ -3,12 +3,25 @@
   "version": "1.0.0",
   "description": "util style for react native",
   "main": "src/index.ts",
+  "types": "src/index.ts",
   "scripts": {
+    "start": "expo start",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Mohammadjuned Shaikh",
   "dependencies": {
-    "react-native": "^0.74.5"
-  }
+    "react-native": "latest",
+    "expo": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/junaid1412/utilStyle.git"
+  },
+  "keywords": [
+    "react-native",
+    "responsive",
+    "style-library"
+  ],
+  "license": "MIT"
 }
