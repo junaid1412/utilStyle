@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "esnext",
+      "module": "commonjs",
+      "jsx": "react-native",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true, // This can help avoid type conflicts
+      "forceConsistentCasingInFileNames": true,
+      "baseUrl": "./",
+    },
+    "include": ["src/**/*", "index.ts"],
+    "exclude": ["node_modules"]
+  }
+  

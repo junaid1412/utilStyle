@@ -2,7 +2,7 @@
   "name": "util-style",
   "version": "1.0.0",
   "description": "util style for react native",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "types": "src/index.ts",
   "scripts": {
     "start": "expo start",
@@ -11,8 +11,8 @@
   },
   "author": "Mohammadjuned Shaikh",
   "dependencies": {
-    "react-native": "latest",
-    "expo": "latest"
+    "expo": "latest",
+    "react-native": "latest"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,10 @@
     "responsive",
     "style-library"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.3.11",
+    "@types/react-native": "^0.73.0",
+    "typescript": "^5.6.3"
+  }
 }
